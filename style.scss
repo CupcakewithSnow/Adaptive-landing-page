@@ -1,0 +1,49 @@
+$accent:#D7B399;
+$dark:#212121;
+$cream:#F9F6F1;
+$grey:#CBCFD4;
+$bncolor:#D7B399;
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.page-color{
+    background-color: $cream;
+}
+.wrapper{
+    max-width: 1110px;
+    margin:0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    &-item{
+        margin-left: 52px;
+    }
+    &-link{
+        color:$dark;
+        text-decoration: none;
+    }
+}
+.cart{
+    background-image: url(../img/Vector.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 40px;
+    height: 30px;
+    padding-left: 80px;
+    background-position: center;
+    &-count{
+        background-color: $accent;
+        display: block;
+        color: white;
+        font-size:12px;
+        font-weight: 700;
+        padding:10px 15px;
+    }
+}
